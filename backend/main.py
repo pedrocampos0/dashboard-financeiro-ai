@@ -1,6 +1,6 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
-from backend.sql.database import create_db_and_tables
+from sql.database import create_db_and_tables
 from routes.ativos import ativos_router
 
 @asynccontextmanager
